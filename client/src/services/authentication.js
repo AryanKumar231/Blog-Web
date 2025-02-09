@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
 // Define a service using a base URL and expected endpoints
 export const authenticationApi = createApi({
   reducerPath: 'authenticationApi',
-  baseQuery: fetchBaseQuery({ baseUrl: 'http://localhost:4000/api/v1/users' }),
+  baseQuery: fetchBaseQuery({ baseUrl: 'https://blog-web-4ryv.onrender.com' }),
   endpoints: (builder) => ({
     signup: builder.mutation({
       query: (form) => ({
