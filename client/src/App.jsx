@@ -3,10 +3,9 @@ import Detail from "./pages/Detail";
 import { createBrowserRouter, Navigate, RouterProvider } from "react-router-dom";
 import Layout from "./layout";
 import Contact from "./pages/Contact";
-import Write from "./pages/write";
+import Write from "./pages/Write";
 import Profile from "./pages/Profile";
 import { useSelector } from "react-redux";
-import { toast } from "react-toastify";
 
 const App = () => {
 
