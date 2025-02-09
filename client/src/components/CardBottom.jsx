@@ -1,6 +1,6 @@
 import React from 'react'
 import Badge from './Badge'
-import { user1 } from '../assets/assets'
+import { user1 } from '../../public/assets/assets'
 
 const CardBottom = ({ item }) => {
     if (!item) {

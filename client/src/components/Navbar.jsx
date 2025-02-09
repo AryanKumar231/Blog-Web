@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { darkLogo, lightLogo } from "../assets/assets";
+import { darkLogo, lightLogo } from "../../public/assets/assets";
 import { IoSunny, IoMoon, IoClose, IoSearchSharp } from "react-icons/io5";
 import { FaBarsStaggered } from "react-icons/fa6";
 import { useDispatch, useSelector } from "react-redux"

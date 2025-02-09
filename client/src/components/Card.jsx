@@ -1,5 +1,5 @@
 import React from 'react'
-import { heroImg } from '../assets/assets'
+import { heroImg } from '../../public/assets/assets'
 import CardBottom from './CardBottom'
 import { Link } from 'react-router-dom'
 

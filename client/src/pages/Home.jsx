@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { heroImg, user1 } from '../assets/assets'
+import { heroImg, user1 } from '../../public/assets/assets'
 import CardBottom from '../components/CardBottom'
 import Card from '../components/Card'
 import { useGetAllBlogQuery } from '../services/blog'
