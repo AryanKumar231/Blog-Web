@@ -64,7 +64,7 @@ const Profile = () => {
                         {
                             post.map((item) => (
                                 <div key={item._id} className='my-6 flex justify-between items-center gap-6 border-b border-gray-800 dark:border-gray-700 pb-2'>
-                                    <img src={`http://127.0.0.1:4000/uploads/${item?.heroImg}`} alt="" className='w-12 h-12 rounded' />
+                                    <img src={`https://blog-web-4ryv.onrender.com/uploads/${item?.heroImg}`} alt="" className='w-12 h-12 rounded' />
 
                                     <h2 className='text-2xl flex-1 overflow-ellipsis line-clamp-1'>
                                         <Link to={`/detail/${item._id}`}>{item.title}</Link>

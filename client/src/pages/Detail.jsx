@@ -21,7 +21,7 @@ const Detail = () => {
             {!isLoading && post && (
                 <section className="my-12">
                     <CardBottom item={post} />
-                    <img src={`http://127.0.0.1:4000/uploads/${post?.heroImg}`} alt="" className="max-h-[400px] w-full object-cover rounded-lg my-12" />
+                    <img src={`https://blog-web-4ryv.onrender.com/uploads/${post?.heroImg}`} alt="" className="max-h-[400px] w-full object-cover rounded-lg my-12" />
                     <div className="content text-xs rich-text-content" dangerouslySetInnerHTML={{ __html: post.content }} />
                 </section>
             )}
