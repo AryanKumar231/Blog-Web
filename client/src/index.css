@@ -1,0 +1,90 @@
+@import "tailwindcss";
+
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+body {
+    font-family: 'Poppins', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Work Sans', serif;
+}
+
+/* Exclude Tailwind styles from rich text content */
+.rich-text-content {
+    all: initial;
+    font-family: 'Poppins', serif;
+    color: inherit;
+    word-wrap: wrap;
+    word-break: break-all;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.9px;
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        font-weight: 500;
+
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        font-weight: 500;
+    
+    }
+
+
+    ul {
+        list-style: disc;
+        margin-left:2rem;
+    }
+
+    ol {
+        list-style: decimal;
+        margin-left:2rem;
+    }
+    .ql-indent-1{
+        margin-left:2rem;
+    }
+    .ql-indent-2{
+        margin-left:4rem;
+    }
+    .ql-indent-3{
+        margin-left:6rem;
+    }
+    .ql-indent-4{
+        margin-left:8rem;
+    }
+    .ql-indent-5{
+        margin-left:10rem;
+    }
+    .ql-indent-6{
+        margin-left:12rem;
+    }
+    .ql-indent-7{
+        margin-left:14rem;
+    }
+    .ql-indent-8{
+        margin-left:16rem;
+    }
+    .ql-align-center{
+        text-align: center;
+    }
+    .ql-align-right{
+        text-align: right;
+    }
+    .ql-align-justify{
+        text-align: justify;
+    }
+}
